@@ -1,12 +1,64 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎯 React Frontend Task – Educo Dashboard
 
-Currently, two official plugins are available:
+This project is a frontend implementation of the Educo Dashboard using **React.js**, developed as part of a hiring process submission.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React.js**
+- **Vite**
+- **CSS**
+- **SVG Icons & Google Fonts**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```
+
+src/
+├── components/
+│   ├── Sidebar.jsx
+│   ├── Header.jsx
+│   ├── NewCourses.jsx
+│   ├── HoursActivity.jsx
+│   ├── DailySchedule.jsx
+│   ├── Calendar.jsx
+│   ├── Assignments.jsx
+│   └── CourseProgress.jsx
+├── App.jsx
+└── main.jsx
+
+````
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/PIQUE039/responsive-dashboard-ui-educo.git
+cd educo-dashboard
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+> Open `http://localhost:5173` in your browser.
+
+## 📂 Drive Backup
+
+If you prefer a zip version of the project, you can access it via Google Drive:
+
+🔗 [Google Drive Folder](https://drive.google.com/drive/folders/1FYBePSOZvc4SaHxFkASu9o_M1t-Wwz1F?usp=sharing)
+
+## 👨‍💻 Author
+
+**Purvesh Kirlosker**
+[GitHub Profile](https://github.com/PIQUE039)
